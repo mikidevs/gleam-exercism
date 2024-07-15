@@ -1,5 +1,6 @@
+import case_expressions
 import gleam/io
 
 pub fn main() {
-  io.println("Hello from exercism!")
+  1 |> case_expressions.reply |> io.println
 }

@@ -1,12 +1,6 @@
-```gleam
-import exercism
+# Exercism Track
 
-pub fn main() {
-  // TODO: An example of the project in use
-}
-```
-
-Further documentation can be found at <https://hexdocs.pm/exercism>.
+Praciticing some basics on the language
 
 ## Development
 
