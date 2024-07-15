@@ -1,6 +1,6 @@
-import case_expressions
 import gleam/io
+import log_levels
 
 pub fn main() {
-  1 |> case_expressions.reply |> io.println
+  "[ERROR]: Invalid operation" |> log_levels.reformat |> io.println
 }
