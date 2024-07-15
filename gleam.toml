@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-name = "first_track"
-=======
 name = "exercism"
->>>>>>> e3e86b4 (initial)
 version = "1.0.0"
 
 # Fill out these fields if you intend to generate HTML documentation or publish
