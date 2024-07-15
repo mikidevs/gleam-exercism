@@ -1,5 +1,17 @@
+import gleam/float
+import gleam/int
 import gleam/io
 
+pub fn pence_to_pounds(pence: Int) -> Float {
+  int.to_float(pence) /. 100.0
+}
+
+pub fn pounds_to_string(pounds: Float) -> String {
+  "£" <> float.to_string(pounds)
+}
+
 pub fn main() {
-  io.println("Hello from first_track!")
+  let value = 106
+  let result = value |> pence_to_pounds |> pounds_to_string
+  io.println(result)
 }
